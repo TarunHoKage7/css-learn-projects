@@ -1,0 +1,80 @@
+body {
+  max-width: 100%;
+  height: auto;
+  background-color: #666;
+}
+main {
+}
+
+#title {
+  --string: Tony Stark;
+}
+.div1 {
+  padding: 10px 10px 10px 10px;
+  display: block;
+  height: auto;
+  width: auto;
+}
+
+.cntr {
+  position: relative;
+  text-align: center;
+}
+
+.pe {
+  padding: 0px 0px 10px 0px;
+  font-size: 23px;
+}
+.he {
+  padding: 10px 10px 0px 10px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#img-div {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-height: auto;
+  max-width: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-caption {
+  padding: 10px;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  justify-content: center;
+}
+
+#tribute-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.dtb {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.ddb {
+  font-size: 19px;
+}
+
+#tribute-text {
+  text-align: center;
+  font-weight: bold;
+}
+#tribute-link {
+  text-align: center;
+  font-weight: bold;
+}
