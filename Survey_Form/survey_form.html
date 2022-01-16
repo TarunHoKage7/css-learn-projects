@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <title>
+    Survey Form
+  </title>
+</head>
+
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">This is a survey</p>
+  <div id="form-around">
+    <form id="survey-form">
+      <label for="name" id="name-label">Name:</label>
+      <input type="text" name="name" placeholder="Enter your name" required id="name">
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" name="email" placeholder="Enter a valid email" required id="email">
+      <label for="number" id="number-label">Age:</label>
+      <input type="number" min="10" max="150" name="number" placeholder="Enter your age" id="number">
+      <label for="option" id="name-label">Options:</label>
+      <select id="dropdown">
+        <option value="select">Select an option</option>
+        <option value="option-1">Option-1</option>
+        <option value="option-2">Option-2</option>
+        <option value="option-3">Option-3</option>
+      </select>
+      <p id="name-label">Select one of the below options:</p>
+      <input type="radio" name="name" value="A">
+      <label for="radioselect" id="radios">A</label>
+      <input type="radio" name="name" value="B">
+      <label for="radioselect" id="radios">B</label>
+      <input type="radio" name="name" value="C">
+      <label for="radioselect" id="radios">C</label>
+      <input type="radio" name="name" value="D">
+      <label for="radioselect" id="radios">D</label>
+      <input type="radio" name="name" value="E">
+      <label for="radioselect" id="radios">E</label>
+      <br>
+      <p id="name-label">Multi-Select:</p>
+      <input type="checkbox" name="opt1" value="A">
+      <label for="A" id="radios">A</label>
+      <input type="checkbox" name="opt2" value="B">
+      <label for="B" id="radios">B</label>
+      <input type="checkbox" name="opt3" value="C">
+      <label for="C" id="radios">C</label>
+      <input type="checkbox" name="opt4" value="D">
+      <label for="D" id="radios">D</label>
+      <input type="checkbox" name="opt5" value="E">
+      <label for="E" id="radios">E</label>
+      <br>
+      <p id="name-label">Comments and Suggestions:</p>
+      <textarea id="textar" placeholder="Comments"></textarea>
+      <input type="reset" id="reset">
+      <input type="submit" id="submit">
+    </form>
+  </div>
+</body>

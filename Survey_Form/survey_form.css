@@ -1,0 +1,113 @@
+body{
+  background-image: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#title {
+  text-align: center;
+  font-size: 45px;
+}
+
+#description {
+  text-align: center;
+  font-size: 22px;
+}
+#form-around {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 40px 40px 40px;
+  background-color: #6606;
+  border-radius: 15px;
+  width: 60%;
+  margin: auto;
+  max-width: auto;
+}
+#survey-form {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#name-label {
+  color: white;
+  font-weight: bold;
+}
+
+#email-label {
+  color: white;
+  font-weight: bold;
+}
+
+#number-label {
+  color: white;
+  font-weight: bold;
+}
+
+#name {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: auto;
+  max-height: auto;
+  width: 95%;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+#email {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: auto;
+  max-height: auto;
+  width: 95%;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+#number {
+  display: block;
+  minimum: 1;
+  maximum: 140;
+  justify-content: center;
+  align-items: center;
+  max-width: auto;
+  max-height: auto;
+  width: 95%;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+#dropdown {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  max-width: auto;
+  max-height: auto;
+  width: 60%;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+#radios{
+  color: white;
+  font-size: 15px;
+}
+
+#textar{
+  width: 98%;
+  max-height: auto;
+  max-width: auto;
+  resize: none;
+  border-radius: 5px;
+}
+
+#reset{
+  border-radius: 10px;
+}
+
+#submit{
+  border-radius: 12px;
+}
