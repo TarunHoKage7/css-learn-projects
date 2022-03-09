@@ -1,0 +1,127 @@
+html,body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul{
+  width: 100%;
+  background-color: black;
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-right: 1px solid white;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+nav ul li{
+  display: inline-block;
+  border-left: 1px solid white;
+  text-align: center;
+  padding: 10px 10px;
+  overflow: hidden;
+  width: 68px;
+  height: 20px;
+}
+
+.navSpecial{
+  width: 174px;
+}
+
+#welcome{
+  color: grey;
+  display: inline;
+  position: absolute;
+}
+
+#date{
+  display: inline;
+  float: right;
+  color: grey;
+}
+
+.section1{
+  background-image:url("https://via.placeholder.com/580x300.JPG");
+  width: 580px;
+  height: 300px;
+  margin: 50px 10px 10px 10px;
+  display:inline-block;
+}
+
+.section1 > *{
+  padding-left: 5px;
+}
+
+.section1 > h1{
+  padding-top: 160px;
+}
+
+.section1 > span + span{
+  display: block;
+  padding: 5px;
+  border-left: 3px solid red;
+  margin-left: 5px;
+}
+
+.sectionGroup1{
+  margin-top: 45px;
+  position: absolute;
+  display: inline-block;
+  width: 918px;
+  height: 300px;
+}
+
+.sectionGroup1 > section{
+  position: relative;
+  background-image:url("https://via.placeholder.com/450x145.JPG");
+  margin: 5px 4px;
+  float: left;
+  width: 450px;
+  height: 145px;
+}
+
+.sectionGroup1 > section > h3{
+  padding-top: 60px;
+  font-size: 18px;
+}
+
+.sectionGroup1 > section > span{
+  font-size: 10px;
+  border-left: 3px solid red;
+  padding-left: 5px;
+  margin-left: 4px;
+}
+
+.groupHeader{
+  border-left: 4px solid red;
+  padding-left: 5px;
+  margin-left: 10px;
+}
+
+.sectionGroup2{
+  margin-left: 10px;
+}
+
+.sectionGroup2 > article{
+  background-image: url("https://via.placeholder.com/300x190.JPG");
+  margin-right: 10px;
+  width: 32.5%;
+  height: 200px;
+  float: left;
+}
+.sectionGroup2 > article > *{
+  margin-left: 5px;
+}
+.sectionGroup2 > article >h3{
+  font-size: 15px;
+  margin-top: 90px;
+}
+
+.sectionGroup2 > article > span + span{
+  display: block;
+  border-left: 3px solid red;
+  padding-left: 5px;
+  margin-top: 10px;
+}
