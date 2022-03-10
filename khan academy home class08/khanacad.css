@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    line-height: 1.12em;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body{
+    margin: 0;
+  }
+  
+ nav > ul li{
+      list-style-type:none;
+      display: inline-block;
+      color: rgb(0, 132, 255);
+      padding: 0 10px;
+      font-weight: 700;
+  }
+
+  section > img{
+    display: inline-block;
+    margin: 5% 0 0 20%;
+}
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  nav{
+      display: block;
+      border-bottom: 1px solid rgb(185, 184, 184);
+      border-top: 1px solid rgb(185, 184, 184);
+      top:0;
+      left:0;
+      font-size:large;
+      margin-top: 2px;
+  }
+
+  .section1{
+      display: inline-block;
+      max-width: 300px;
+      margin: 2% 0 0 0;
+  }
+
+  .section2{
+      position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10%;
+    bottom: 20%;
+}
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  #nav1{
+      float: left;
+      padding-left: 50px;
+      margin-top: 5px;
+  }
+
+  #nav1 form > select{
+      border: hidden;
+      color: rgb(0, 132, 255);
+      font-weight: 700;
+      margin-right: 20px;
+    }
+
+    #nav1 form > input{
+        background-color: rgb(233, 230, 230);
+        border: hidden;
+        border-radius: 5px;
+        height: 40px;
+    }
+
+    #nav1 form > input::placeholder{
+        color: rgb(0, 132, 255);
+        font-weight: 700;
+        padding-left: 8px;
+    }
+
+    nav > img{
+        display: inline-block;
+        margin: 1% 0 0 25%;
+    }
+
+    #nav2{
+    display: inline-block;
+    margin: 0 0 1% 25%;
+    }
+
+    .section2 > h1{
+        width: 300px;
+    }
+
+    .section2 > p{
+        width: 550px;
+    }
+
+    .section2 > span{
+        background-color: rgb(28, 132, 230);
+        padding: 8px;
+        color: white;
+        margin-right: 5px;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
