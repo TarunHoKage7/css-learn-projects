@@ -1,0 +1,140 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  nav {
+    width: 10%;
+    float: left;
+    margin: 0;
+    height: 100%;
+  }
+
+  nav > *{
+    padding: 5px;
+    margin-left: 10px;
+  }
+
+  nav > img + p + span{
+      margin-bottom: 20px;
+  }
+
+  nav > ul{
+      list-style-type: none;
+  }
+
+  nav > ul > li{
+      color: gray;
+      font-size: 20px;
+      padding: 5px;
+  }
+  
+  main span {
+    font-weight: bold;
+  }
+
+  main p{
+      color: gray;
+  }
+
+  section>h1{
+      font-size: xx-large;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  #span1{
+      color: goldenrod;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .section1{
+      float: left;
+      width: 50%;
+  }
+
+  #span1 + h1 + p + span{
+      float: left;
+  }
+
+  .section1 > img{
+      clear: left;
+      float:left;
+  }
+
+  .section2{
+    float: left;
+    width: 40%;
+  }
+
+  .section2 > article{
+      border-bottom: 1px solid rgb(204, 201, 201);
+
+  }
+
+  .section2 > article > h2{
+      font-size: x-large;
+  }
+
+  .section3{
+    display: inline-block;
+    margin: 0 0 0 11%;
+  }
+
+  .section3 > h3{
+      border-bottom: 1px solid rgb(204, 201, 201);
+  }
+
+  .section3 > article > div{
+      float: left;
+      width: 30%;
+      margin-right: 5%;
+  }
+
+  .section3 > article > div > h2{
+      font-size: xx-large;
+  }
+
+  .section3 > article > div > h2 + span{
+      display:block;
+  }
+
+  .section3 > article > img{
+      float: left;
+      margin-left: 5%;
+  }
+
+  .section3 > article > p{
+      float:left;
+      width: 30%
+  }
