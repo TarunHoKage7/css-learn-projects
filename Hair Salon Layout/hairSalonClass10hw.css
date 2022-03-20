@@ -1,0 +1,403 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+  
+  }
+  
+  footer {
+  
+  }
+
+  nav{
+      height: 100px;
+      padding-top: 20px;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+body ul{
+    list-style-type: none;
+    margin: 0 0 0 150px;
+}
+
+nav img{
+    float:left;
+    margin: 10px 10px 10px 20px;
+}
+
+nav ul > li{
+    float: left;
+    width: 100px;
+    margin: 10px 10px 10px 0;
+}
+
+nav > span{
+    float: right;
+    margin: 10px 90px 10px 10px;
+}
+
+.sec1 > h1{
+    margin: 80px 0 0 150px;
+    font-size: 70px;
+    font-family:serif;
+    font-weight: 500;
+    max-width: 400px;
+}
+
+.sec1 > h1 + h2{
+    margin: 0 0 20px 150px;
+    font-size: 70px;
+    font-family:serif;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+.sec1 > h1 + h2 + p{
+    margin: 0 0 20px 150px;
+}
+
+.sec1 > h1 + h2 +p + span{
+    display: block;
+    margin: 10px 0 20px 150px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    width:190px; 
+}
+
+.sec1 > img{
+    float: right;
+    margin-top: -15%;
+    margin-right: 70px;
+}
+
+.sec1 > img + span{
+    float: right;
+    width: 5px;
+    height: 300px;
+    margin-right: -37.5%;
+}
+
+.art1{
+    background-color: black;
+    color: white;
+    width:270px;
+    height: 360px;
+    margin: 50px 0 100px 150px;
+}
+
+.art1 > p{
+    padding: 30px 0 30px 30px;
+    margin:30px 0 30px 0.4%;
+    font-size: x-small;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-left: 10px solid white;
+}
+
+.art1 > h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    width: 250px;
+    padding-bottom: 30px;
+}
+
+.art1 > h3 > span{
+    font-size: 50px;
+}
+
+.art1 > span{
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    margin: 0 0 0 20px
+}
+
+.art1 + span + span{
+    float: right;
+    background-color: white;
+    padding: 10px;
+    margin: -30px 10px 30px 0;
+    border-radius: 50%;
+}
+
+.art1 + span{
+    float: right;
+    background-color: white;
+    padding: 10px;
+    margin: -30px 10% 30px 0;
+    border-radius: 50%;
+}
+
+.sec2{
+    margin: 150px 50px 30px 150px;
+}
+
+.sec2 > article{
+    float: left;
+    max-width: 400px;
+    padding-top: 50px;
+}
+
+.sec2 > article > *{
+    text-align: center;
+}
+
+.sec2 > article span{
+    padding-left: 180px;
+}
+
+.sec3{
+    clear: both;
+    background-color: rgb(231, 211, 175);
+    padding: 50px 0 5% 150px;
+}
+
+.sec3 > h2,h3{
+    display: block;
+    width: 400px;
+    font-size: xx-large;
+    margin: 0 0 5px 0;
+}
+
+.sec3 > p{
+    float:left;
+    width: 500px;
+}
+
+.sec3 > img{
+    float: left;
+    margin-left: 250px;
+    margin-top: -50px;
+}
+
+.sec3 > span{
+    clear: both;
+    display: block;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: black;
+    color: rgb(231, 211, 175);
+}
+
+.sec4{
+    margin:50px 0 50px 300px;
+    padding-bottom: 400px;
+}
+
+.sec4 article{
+    float: left;
+    margin: 30px 50px 0 30px;
+}
+
+.sec4 > article > img + span{
+    background-color: black;
+    color: wheat;
+    display: block;
+    width: 180px;
+    margin: -10px 0 0 20px;
+    position: relative;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.sec4 > article > img + span > p{
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+
+.sec5{
+    background-color: rgb(231, 211, 175);
+    padding: 30px 0 30px 50px;
+    margin: 0 100px
+}
+
+.sec5 > span{
+    font-size: smaller;
+}
+
+.sec5 h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: xx-large;
+    font-family:serif;
+}
+
+.sec5 > h3 + h3{
+    margin: 0;
+    padding-bottom: 20px;
+    padding-top: 0;
+    font-size: xx-large;
+    font-family:serif;
+}
+
+.sec5 > h3 + img{
+    float: right;
+    margin-top: -140px;
+    margin-right: 300px;
+}
+
+.sec5 > h3 + img + span{
+    background-color: black;
+    color: wheat;
+    padding: 10px;
+}
+
+.sec6{
+    margin: 50px 0 0 150px;
+}
+
+.sec6 > h2{
+    text-align: center;
+    margin-left: -75px;
+}
+
+.sec6 > h2 + span{
+    display: block;
+    text-align: center;
+    margin-left: -120px;
+    padding-bottom: 30px;
+    margin-top: -45px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.sec6 > img{
+    float: left;
+    border-left: 1px dotted black;
+}
+
+.sec6 >span + img + img{
+    min-height: 300px;
+    max-width: 150px;
+    margin: 0 10px;
+}
+
+#grimg1{
+    clear: both;
+    min-height: 300px;
+    max-width: 150px;
+    margin-top: -140px;
+}
+
+#grimg1 + img{
+    margin: 10px 10px;
+}
+
+#grimg1 + img + img{
+    min-height: 300px;
+    max-width: 150px;
+    margin-top: -140px;
+}
+
+.sec6 > section{
+    position: absolute;
+    margin-left: 600px;
+}
+
+.sec6 > section > img{
+    float: left;
+    border-right: 1px dotted black;
+}
+
+#ssimg1{
+    margin-left: 200px;
+    min-height: 300px;
+    max-width: 150px;
+}
+
+#ssimg1 + img{
+    margin: 0 10px ;
+}
+
+#ssimg1 + img + img{
+    min-height: 300px;
+    max-width: 150px;
+}
+
+#ssimg2{
+    clear: both;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#ssimg2 + img{
+    min-height: 300px;
+    max-width: 150px;
+    margin: -140px 10px 0 10px;
+
+}
+
+#ssimg2 + img + img{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 500px){
+    *{
+        margin: 5px 5px 5px 5px!important;
+        padding: 5px 5px !important;
+        font-size:calc(1em);
+        clear: both !important;
+        display: block !important;
+        max-width:410px;
+        overflow-x: hidden;
+    }
+
+    img{
+        opacity: 0;
+        position: fixed;
+    }
+
+    h3{
+        font-size: calc(1.5em) !important;
+    }
+
+    h2{
+        font-size: calc(3em) !important;
+    }
+
+    nav{
+        opacity: 0;
+        position: fixed;
+    }
+
+    .sec1 > img + span{
+        width: auto !important;
+        margin-bottom: -250px !important;
+    }
+}
